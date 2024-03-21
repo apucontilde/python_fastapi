@@ -1,0 +1,30 @@
+
+
+[project]
+name = ""
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+package-mode = false
+dependencies = [
+    python = "^3.10"
+    SQLAlchemy = "^2.0.5"
+    fastapi = "^0.93.0"
+    uvicorn = "^0.20.0"
+    python-dotenv = "^1.0.0"
+    psycopg2 = "^2.9.5"
+]
+requires-python = ">=3.10.8"
+maintainers = [
+  {name = "Brett Cannon", email = "brett@example.com"}
+]
+description = ""
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/me/spam.git"
+"Bug Tracker" = "https://github.com/me/spam/issues"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
